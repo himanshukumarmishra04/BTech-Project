@@ -1,0 +1,35 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local databases and runtime state (pre-seeded data in data/ is preserved)
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Vector index storage runtime cache
+vector_store/storage/*.pkl
+vector_store/storage/*.index
+
+# Environment and sensitive variables
+.env
+.env.local
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
